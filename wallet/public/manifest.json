@@ -1,0 +1,21 @@
+{
+  "name": "Ví điện tử tích hợp blockchain",
+  "version": "1.0.0",
+  "description": "Tuyển tập đồ án cực căng của Cháu ông Thọ",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Ví điện tử"
+  },
+  "permissions": ["storage"],
+
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  },
+
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; connect-src 'self' http://localhost:3001;"
+  }
+}
